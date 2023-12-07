@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<departments>
+  <department name="Doing Nothing department">
+    <employees>2</employees>
+    <employeesyoung>2</employeesyoung>
+  </department>
+  <department name="Doing Something department">
+    <employees>1</employees>
+    <employeesyoung>1</employeesyoung>
+  </department>
+</departments>

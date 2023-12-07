@@ -1,0 +1,122 @@
+<ValCurs ID="R01235" DateRange1="02.01.2021" DateRange2="20.02.2021" name="Foreign Currency Market Dynamic">
+<Record Date="12.01.2021" Id="R01235">
+    <Nominal>1</Nominal>
+    <Value>74,5157</Value>
+    <VunitRate>74,5157</VunitRate>
+</Record>
+<Record Date="13.01.2021" Id="R01235">
+    <Nominal>1</Nominal>
+    <Value>74,2663</Value><VunitRate>74,2663</VunitRate>
+</Record>
+<Record Date="14.01.2021" Id="R01235">
+    <Nominal>1</Nominal>
+    <Value>73,5264</Value><VunitRate>73,5264</VunitRate>
+</Record>
+<Record Date="15.01.2021" Id="R01235">
+    <Nominal>1</Nominal>
+    <Value>73,7961</Value><VunitRate>73,7961</VunitRate>
+</Record>
+<Record Date="16.01.2021" Id="R01235">
+    <Nominal>1</Nominal>
+    <Value>73,5453</Value><VunitRate>73,5453</VunitRate>
+</Record>
+<Record Date="19.01.2021" Id="R01235">
+    <Nominal>1</Nominal>
+    <Value>73,9735</Value><VunitRate>73,9735</VunitRate>
+</Record>
+<Record Date="20.01.2021" Id="R01235">
+    <Nominal>1</Nominal>
+    <Value>73,7243</Value><VunitRate>73,7243</VunitRate>
+</Record>
+<Record Date="21.01.2021" Id="R01235">
+    <Nominal>1</Nominal>
+    <Value>73,3550</Value><VunitRate>73,355</VunitRate>
+</Record>
+<Record Date="22.01.2021" Id="R01235">
+    <Nominal>1</Nominal>
+    <Value>73,3694</Value><VunitRate>73,3694</VunitRate>
+</Record>
+<Record Date="23.01.2021" Id="R01235">
+    <Nominal>1</Nominal>
+    <Value>74,3615</Value><VunitRate>74,3615</VunitRate>
+</Record>
+<Record Date="26.01.2021" Id="R01235">
+    <Nominal>1</Nominal>
+    <Value>74,8569</Value><VunitRate>74,8569</VunitRate>
+</Record>
+<Record Date="27.01.2021" Id="R01235">
+    <Nominal>1</Nominal>
+    <Value>75,6354</Value><VunitRate>75,6354</VunitRate>
+</Record>
+<Record Date="28.01.2021" Id="R01235">
+    <Nominal>1</Nominal>
+    <Value>75,0400</Value><VunitRate>75,04</VunitRate>
+</Record>
+<Record Date="29.01.2021" Id="R01235">
+    <Nominal>1</Nominal>
+    <Value>76,1854</Value><VunitRate>76,1854</VunitRate>
+</Record>
+<Record Date="30.01.2021" Id="R01235">
+    <Nominal>1</Nominal>
+    <Value>76,2527</Value><VunitRate>76,2527</VunitRate>
+</Record>
+<Record Date="02.02.2021" Id="R01235">
+    <Nominal>1</Nominal>
+    <Value>75,5053</Value><VunitRate>75,5053</VunitRate>
+</Record>
+<Record Date="03.02.2021" Id="R01235">
+    <Nominal>1</Nominal>
+    <Value>75,9051</Value><VunitRate>75,9051</VunitRate>
+</Record>
+<Record Date="04.02.2021" Id="R01235">
+    <Nominal>1</Nominal>
+    <Value>76,0801</Value><VunitRate>76,0801</VunitRate>
+</Record>
+<Record Date="05.02.2021" Id="R01235">
+    <Nominal>1</Nominal>
+    <Value>75,7293</Value><VunitRate>75,7293</VunitRate>
+</Record>
+<Record Date="06.02.2021" Id="R01235">
+    <Nominal>1</Nominal>
+    <Value>75,1107</Value><VunitRate>75,1107</VunitRate>
+</Record>
+<Record Date="09.02.2021" Id="R01235">
+    <Nominal>1</Nominal>
+    <Value>74,2602</Value><VunitRate>74,2602</VunitRate>
+</Record>
+<Record Date="10.02.2021" Id="R01235">
+    <Nominal>1</Nominal>
+    <Value>74,1192</Value><VunitRate>74,1192</VunitRate>
+</Record>
+<Record Date="11.02.2021" Id="R01235">
+    <Nominal>1</Nominal>
+    <Value>73,8526</Value><VunitRate>73,8526</VunitRate>
+</Record>
+<Record Date="12.02.2021" Id="R01235">
+    <Nominal>1</Nominal>
+    <Value>73,7579</Value><VunitRate>73,7579</VunitRate>
+</Record>
+<Record Date="13.02.2021" Id="R01235">
+    <Nominal>1</Nominal>
+    <Value>73,9378</Value><VunitRate>73,9378</VunitRate>
+</Record>
+<Record Date="16.02.2021" Id="R01235">
+    <Nominal>1</Nominal>
+    <Value>73,3092</Value><VunitRate>73,3092</VunitRate>
+</Record>
+<Record Date="17.02.2021" Id="R01235">
+    <Nominal>1</Nominal>
+    <Value>73,2895</Value><VunitRate>73,2895</VunitRate>
+</Record>
+<Record Date="18.02.2021" Id="R01235">
+    <Nominal>1</Nominal>
+    <Value>73,7669</Value><VunitRate>73,7669</VunitRate>
+</Record>
+<Record Date="19.02.2021" Id="R01235">
+    <Nominal>1</Nominal>
+    <Value>73,7755</Value><VunitRate>73,7755</VunitRate>
+</Record>
+<Record Date="20.02.2021" Id="R01235">
+    <Nominal>1</Nominal>
+    <Value>73,9717</Value><VunitRate>73,9717</VunitRate>
+</Record>

@@ -1,0 +1,14 @@
+D:\.11Main\vscode\c#\main\bin\Debug\net7.0\main.exe
+D:\.11Main\vscode\c#\main\bin\Debug\net7.0\main.deps.json
+D:\.11Main\vscode\c#\main\bin\Debug\net7.0\main.runtimeconfig.json
+D:\.11Main\vscode\c#\main\bin\Debug\net7.0\main.dll
+D:\.11Main\vscode\c#\main\bin\Debug\net7.0\main.pdb
+D:\.11Main\vscode\c#\main\obj\Debug\net7.0\main.GeneratedMSBuildEditorConfig.editorconfig
+D:\.11Main\vscode\c#\main\obj\Debug\net7.0\main.AssemblyInfoInputs.cache
+D:\.11Main\vscode\c#\main\obj\Debug\net7.0\main.AssemblyInfo.cs
+D:\.11Main\vscode\c#\main\obj\Debug\net7.0\main.csproj.CoreCompileInputs.cache
+D:\.11Main\vscode\c#\main\obj\Debug\net7.0\main.dll
+D:\.11Main\vscode\c#\main\obj\Debug\net7.0\refint\main.dll
+D:\.11Main\vscode\c#\main\obj\Debug\net7.0\main.pdb
+D:\.11Main\vscode\c#\main\obj\Debug\net7.0\main.genruntimeconfig.cache
+D:\.11Main\vscode\c#\main\obj\Debug\net7.0\ref\main.dll

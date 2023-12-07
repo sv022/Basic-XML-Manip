@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<people>
+  <person>
+    <name>Oleg Oleg</name>
+    <birthdate>01.02.2004</birthdate>
+    <jobs>
+      <job>
+        <position>Manager</position>
+        <start>12.03.2008</start>
+        <end>12.04.2008</end>
+        <department>Doing Nothing department</department>
+      </job>
+      <job>
+        <position>Janitor</position>
+        <start>09.11.2007</start>
+        <end>12.03.2008</end>
+        <department>Doing Nothing department</department>
+      </job>
+    </jobs>
+    <salaries>
+      <salary>
+        <year>2008</year>
+        <month>03</month>
+        <total>7000</total>
+      </salary>
+      <salary>
+        <year>2007</year>
+        <month>10</month>
+        <total>5000</total>
+      </salary>
+    </salaries>
+  </person> 
+  <person>
+    <name>Igor Oleg</name>
+    <birthdate>02.01.2003</birthdate>
+    <jobs>
+      <job>
+        <position>Manager but cooler</position>
+        <start>12.03.2008</start>
+        <end>-</end>
+        <department>Doing Nothing department</department>
+      </job>
+    </jobs>
+    <salaries>
+      <salary>
+        <year>2008</year>
+        <month>03</month>
+        <total>8000</total>
+      </salary>
+    </salaries>
+  </person>
+   <person>
+    <name>Vadim Oleg</name>
+    <birthdate>10.04.2005</birthdate>
+    <jobs>
+      <job>
+        <position>Senior Gamer</position>
+        <start>12.03.2008</start>
+        <end>-</end>
+        <department>Doing Nothing department</department>
+      </job>
+      <job>
+        <position>Test guy</position>
+        <start>12.05.2008</start>
+        <end>-</end>
+        <department>Doing Something department</department>
+      </job>
+      <job>
+        <position>Janitor</position>
+        <start>09.11.2007</start>
+        <end>12.01.2008</end>
+        <department>Doing Nothing department</department>
+      </job>
+    </jobs>
+    <salaries>
+      <salary>
+        <year>2008</year>
+        <month>03</month>
+        <total>170000</total>
+      </salary>
+    </salaries>
+  </person> 
+</people>
