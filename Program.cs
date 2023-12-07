@@ -271,7 +271,8 @@ string? filename;
 
 Console.WriteLine("Добро пожаловать в XMLViewer 0.1!\n\nВыберите один из вариантов начала работы:\n1 - Открыть существующий файл\n2 - Завершение работы");
 string? cmd = Input("Введите команду: ");
-filename = "test.xml";
+if (cmd == "2") System.Environment.Exit(0);
+filename = Input("Введите название файла: ");
 
 XDocument xDoc = XDocument.Load(filename);
 do {
