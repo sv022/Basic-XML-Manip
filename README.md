@@ -24,4 +24,5 @@ Designed to manipulate xml files with the following structure:
 </people>
 ```
 Files are read from `bin/Debug/net7.0/test.xml`
+
 Includes a basic command line interface.
