@@ -80,4 +80,54 @@
       </salary>
     </salaries>
   </person> 
+   <person>
+    <name>Bogdan Oleg</name>
+    <birthdate>15.10.2001</birthdate>
+    <jobs>
+      <job>
+        <position>Junior Gamer</position>
+        <start>12.03.2002</start>
+        <end>-</end>
+        <department>Other department</department>
+      </job>
+      <job>
+        <position>Dude guy</position>
+        <start>12.05.2008</start>
+        <end>12.05.2009</end>
+        <department>Doing Something department</department>
+      </job>
+    </jobs>
+    <salaries>
+      <salary>
+        <year>2004</year>
+        <month>03</month>
+        <total>100000</total>
+      </salary>
+    </salaries>
+  </person> 
+   <person>
+    <name>Gleb Oleg</name>
+    <birthdate>10.04.2007</birthdate>
+    <jobs>
+      <job>
+        <position>Trainee Gamer</position>
+        <start>01.09.2009</start>
+        <end>01.12.2009</end>
+        <department>Doing Nothing department</department>
+      </job>
+      <job>
+        <position>Average Gamer</position>
+        <start>10.01.1980</start>
+        <end>-</end>
+        <department>Doing Something department</department>
+      </job>
+    </jobs>
+    <salaries>
+      <salary>
+        <year>2010</year>
+        <month>05</month>
+        <total>70000</total>
+      </salary>
+    </salaries>
+  </person> 
 </people>

@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.11Main\\vscode\\c#\\main\\main.csproj": {}
+    "C:\\Users\\Слава\\Documents\\c#\\Basic-XML-Manip\\main.csproj": {}
   },
   "projects": {
-    "D:\\.11Main\\vscode\\c#\\main\\main.csproj": {
+    "C:\\Users\\Слава\\Documents\\c#\\Basic-XML-Manip\\main.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.11Main\\vscode\\c#\\main\\main.csproj",
+        "projectUniqueName": "C:\\Users\\Слава\\Documents\\c#\\Basic-XML-Manip\\main.csproj",
         "projectName": "main",
-        "projectPath": "D:\\.11Main\\vscode\\c#\\main\\main.csproj",
-        "packagesPath": "C:\\Users\\.HTML\\.nuget\\packages\\",
-        "outputPath": "D:\\.11Main\\vscode\\c#\\main\\obj\\",
+        "projectPath": "C:\\Users\\Слава\\Documents\\c#\\Basic-XML-Manip\\main.csproj",
+        "packagesPath": "C:\\Users\\Слава\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Слава\\Documents\\c#\\Basic-XML-Manip\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\.HTML\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Слава\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

@@ -88,16 +88,19 @@ static void SearchXML(XDocument Doc) {
             string? department = Input("Введите название отдела: ");
             Console.WriteLine();
             int count = 0;
+            int countTotal = 1;
             XmlNodeList? SearchResults = xRoot?.SelectNodes($"person[jobs[job[department='{department}']]]");
             Console.WriteLine($"Должности в отделе {department}: ");
             foreach (XmlNode node in SearchResults) {
                 if (node.SelectSingleNode("jobs[job[end='-']]") != null) {
                     count++;
+                    countTotal++;
                     XElement xElem = XElement.Load(node.CreateNavigator().ReadSubtree());
                     Console.WriteLine(xElem?.Element("jobs")?.Element("job")?.Element("position")?.Value);
-                } 
+                } else countTotal++;
             }
             Console.WriteLine($"\nВсего сотрудников в отделе {department}: {count}");
+            Console.WriteLine($"Доля работающих сотрудников в отделе {department}: {(float)count / countTotal}");
             break;
         }
         case "3": {

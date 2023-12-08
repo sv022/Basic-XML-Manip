@@ -12,3 +12,17 @@ D:\.11Main\vscode\c#\main\obj\Debug\net7.0\refint\main.dll
 D:\.11Main\vscode\c#\main\obj\Debug\net7.0\main.pdb
 D:\.11Main\vscode\c#\main\obj\Debug\net7.0\main.genruntimeconfig.cache
 D:\.11Main\vscode\c#\main\obj\Debug\net7.0\ref\main.dll
+C:\Users\Слава\Documents\c#\Basic-XML-Manip\bin\Debug\net7.0\main.exe
+C:\Users\Слава\Documents\c#\Basic-XML-Manip\bin\Debug\net7.0\main.deps.json
+C:\Users\Слава\Documents\c#\Basic-XML-Manip\bin\Debug\net7.0\main.runtimeconfig.json
+C:\Users\Слава\Documents\c#\Basic-XML-Manip\bin\Debug\net7.0\main.dll
+C:\Users\Слава\Documents\c#\Basic-XML-Manip\bin\Debug\net7.0\main.pdb
+C:\Users\Слава\Documents\c#\Basic-XML-Manip\obj\Debug\net7.0\main.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Слава\Documents\c#\Basic-XML-Manip\obj\Debug\net7.0\main.AssemblyInfoInputs.cache
+C:\Users\Слава\Documents\c#\Basic-XML-Manip\obj\Debug\net7.0\main.AssemblyInfo.cs
+C:\Users\Слава\Documents\c#\Basic-XML-Manip\obj\Debug\net7.0\main.csproj.CoreCompileInputs.cache
+C:\Users\Слава\Documents\c#\Basic-XML-Manip\obj\Debug\net7.0\main.dll
+C:\Users\Слава\Documents\c#\Basic-XML-Manip\obj\Debug\net7.0\refint\main.dll
+C:\Users\Слава\Documents\c#\Basic-XML-Manip\obj\Debug\net7.0\main.pdb
+C:\Users\Слава\Documents\c#\Basic-XML-Manip\obj\Debug\net7.0\main.genruntimeconfig.cache
+C:\Users\Слава\Documents\c#\Basic-XML-Manip\obj\Debug\net7.0\ref\main.dll
