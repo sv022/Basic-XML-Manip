@@ -6,7 +6,7 @@
   </department>
   <department name="Doing Something department">
     <employees>2</employees>
-    <employeesyoung>2</employeesyoung>
+    <employeesyoung>1</employeesyoung>
   </department>
   <department name="Other department">
     <employees>1</employees>

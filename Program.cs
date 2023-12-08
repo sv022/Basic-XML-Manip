@@ -54,9 +54,10 @@ static void PrintEmployeeXML(XmlNode employee, bool ShowSalary){
     Console.WriteLine();
 }
 
-static SortedDictionary<string, int> CountEmployees(XElement xRootc){
+static SortedDictionary<string, int> CountEmployees(XElement xRootc, bool young){
     SortedDictionary<string, int> workersCount = new SortedDictionary<string, int>();
     foreach (XElement person in xRootc.Elements("person")){
+        if (young && DateTime.Parse(person.Element("birthdate")?.Value).Year < 1993) continue;
         foreach (XElement jobEntry in person.Element("jobs").Elements()){
             if (jobEntry.Element("end")?.Value == "-"){
                 try {
@@ -88,19 +89,21 @@ static void SearchXML(XDocument Doc) {
             string? department = Input("Введите название отдела: ");
             Console.WriteLine();
             int count = 0;
-            int countTotal = 1;
+            int total = 1;
             XmlNodeList? SearchResults = xRoot?.SelectNodes($"person[jobs[job[department='{department}']]]");
+            XmlNodeList? totalEmployees = xRoot?.SelectNodes($"person[jobs[job[*]]]");
+            foreach (XmlNode n in totalEmployees) total++;
             Console.WriteLine($"Должности в отделе {department}: ");
             foreach (XmlNode node in SearchResults) {
                 if (node.SelectSingleNode("jobs[job[end='-']]") != null) {
                     count++;
-                    countTotal++;
                     XElement xElem = XElement.Load(node.CreateNavigator().ReadSubtree());
                     Console.WriteLine(xElem?.Element("jobs")?.Element("job")?.Element("position")?.Value);
-                } else countTotal++;
+                }
+                total++;
             }
             Console.WriteLine($"\nВсего сотрудников в отделе {department}: {count}");
-            Console.WriteLine($"Доля работающих сотрудников в отделе {department}: {(float)count / countTotal}");
+            Console.WriteLine($"Доля работающих сотрудников в отделе {department}: {((float)count / total) * 100}%");
             break;
         }
         case "3": {
@@ -118,7 +121,7 @@ static void SearchXML(XDocument Doc) {
                 foreach (XElement job in person.Element("jobs").Elements("job")) departments.Add(job.Element("department")?.Value); //departments.Append(job.Element("department")?.Value)
             }
             //foreach (var d in departments) Console.WriteLine(d);
-            var workersCount = CountEmployees(xRootc);
+            var workersCount = CountEmployees(xRootc, false);
             foreach (KeyValuePair<string, int> kv in workersCount) 
                 if (kv.Value <= 3)
                     Console.WriteLine($"{kv.Key}: {kv.Value}");
@@ -174,13 +177,15 @@ static void SearchXML(XDocument Doc) {
 
 static void ExportXMLData(XDocument Doc){
     XElement xRootc = Doc.Root;
-    SortedDictionary<string, int> departments = CountEmployees(xRootc);
+    SortedDictionary<string, int> departments = CountEmployees(xRootc, false);
+    SortedDictionary<string, int> departmentsYoung = CountEmployees(xRootc, true);
     XElement xDepartRoot = new XElement("departments");
     foreach(KeyValuePair<string, int> kv in departments){
+        if (!departmentsYoung.TryGetValue(kv.Key, out int youngEmployees)) youngEmployees = 0;
         XElement department = new XElement("department",
             new XAttribute("name", kv.Key),
             new XElement("employees", kv.Value.ToString()),
-            new XElement("employeesyoung", (kv.Value - (kv.Value / 10)).ToString())
+            new XElement("employeesyoung", youngEmployees)
         );
         xDepartRoot.Add(department);
     }
